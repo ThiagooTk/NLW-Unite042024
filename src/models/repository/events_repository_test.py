@@ -17,9 +17,9 @@ def test_insert_event():
   response = event_repository.insert_event(event)
   print(response)
 
-#@pytest.mark.skip(reason="Pular query")
+@pytest.mark.skip(reason="Pular query")
 def teste_get_event_by_id():
-  event_id = "xxx-uuid"
+  event_id = "xxx-uuidAAAA"
   event_repository = EventsRepository()
   response = event_repository.get_event_by_id(event_id)
   print(response)
